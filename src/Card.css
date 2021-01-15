@@ -1,0 +1,48 @@
+.Card {
+    width: 500px;
+    height: 400px;
+    background: ghostwhite;
+    border-radius: 10px;
+    box-shadow: 10px 1px 10px 1px black;
+    margin: 5px;
+}
+.Card:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: all .5s ease-out
+}
+.button1 {
+    display:inline-block;
+    width: 170px;
+    margin-top: 40px;
+    margin: 5px;
+    border: 0.5px solid black;
+    border-radius: 5%;
+    background-color: white;
+}
+.button1:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.button2:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+.button2 {
+    margin-top: 40px;
+    display:inline-block;
+    border: 0.5px solid black;
+    width: 100px;
+    margin: 5px;
+    border-radius: 7%;
+    background-color: white;
+}
+Card {
+    display: inline-block;
+    background-color: #ffffff;
+}
+.img-container {
+    overflow: hidden;
+    height: 200px;
+    border-radius: 10px;
+}
